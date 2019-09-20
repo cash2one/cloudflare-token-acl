@@ -1,0 +1,19 @@
+{
+  "name": "workers-webpack",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "webpack -p --progress --colors",
+    "preview": "./scripts/open-preview < dist/worker.js"
+  },
+  "main": "dist/worker.js",
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "moment-timezone": "^0.5.17",
+    "webpack": "^4.10.2"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.1.1"
+  }
+}
